@@ -26,3 +26,7 @@ pypandoc
 python-magic
 fastapi
 python-docx
+yellowbrick
+seaborn
+imbalanced-learn
+yellowbrick
