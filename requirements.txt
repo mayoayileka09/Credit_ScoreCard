@@ -1,0 +1,28 @@
+mlflow == 3.4
+scikit-learn
+optbinning
+pandas
+openpyxl
+numpy
+matplotlib
+scikit-learn-intelex
+shap
+numpyencoder
+argparse
+mkdocs
+mkdocstrings
+rich
+black
+flake8
+typer
+streamlit
+tensorflow-addons
+jupyter
+aiweb-common @ git+https://github.com/UABPeriopAI/llm_utils.git@develop
+joblib
+pytest
+mlflow
+pypandoc
+python-magic
+fastapi
+python-docx

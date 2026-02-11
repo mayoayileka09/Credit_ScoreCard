@@ -1,0 +1,21 @@
+
+# mkdocs.yml
+site_name: ML_Project Credit_ScoreCard
+site_url: FILL OUT
+repo_url: https://github.com/mayoayileka09/Credit_ScoreCard
+nav:
+  - Home: index.md
+  - workflows:
+    - main: ML_Project Credit_ScoreCard/main.md
+  - ML_Project Credit_ScoreCard:
+    - plotter: ML_Project Credit_ScoreCard/plotter.md
+    - data: ML_Project Credit_ScoreCard/data.md
+    - evaluate: ML_Project Credit_ScoreCard/evaluate.md
+    - predict: ML_Project Credit_ScoreCard/predict.md
+    - train: ML_Project Credit_ScoreCard/train.md
+    - report: ML_Project Credit_ScoreCard/report.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
