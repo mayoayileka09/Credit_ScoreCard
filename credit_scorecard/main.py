@@ -5,8 +5,9 @@ from pathlib import Path
 import pandas as pd
 import joblib
 
-from ML_Project Credit_ScoreCard.config.config import ML_Project Credit_ScoreCardConfig, logger
-from ML_Project Credit_ScoreCard import data, train, plotter, report
+from ML_Project Credit_ScoreCard.config.config 
+import ML_Project_Credit_ScoreCardConfig, logger
+from ML_Project_Credit_ScoreCard import data, train, plotter, report
 
 app = typer.Typer()
 warnings.filterwarnings("ignore")
