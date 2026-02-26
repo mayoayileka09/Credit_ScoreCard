@@ -22,3 +22,4 @@ def build_report(pred_path: str, fig_path: str = "eval_plot.png") -> BytesIO:
         rb.add_figure(fig, "regression_plot.png")
         zip_bytes = rb.build_zip()
     return zip_bytes
+

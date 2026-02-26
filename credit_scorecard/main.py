@@ -11,7 +11,7 @@ from credit_scorecard import data, train, plotter, report
 app = typer.Typer()
 warnings.filterwarnings("ignore")
 
-DATA_PATH = "data/raw/loan_data_2007_2014.csv"
+DATA_PATH = "data2/raw/loan_data_2007_2014.csv"
 # MODEL_PATH removed as it is not used directly
 
 

@@ -29,6 +29,9 @@ dev_packages = [
     "pytest",
     "pytest-asyncio",
     "pytest-mock",
+    "typer",
+    "mlflow",
+    "joblib"
 ]
 
 # Define our package
