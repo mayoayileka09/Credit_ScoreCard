@@ -6,7 +6,7 @@ from pathlib import Path
 import mlflow
 from rich.logging import RichHandler
 
-class ML_Project Credit_ScoreCardConfig():
+class credit_scorecard():
         
     # Development Directories
     BASE_DIR = Path(__file__).parent.parent.absolute()

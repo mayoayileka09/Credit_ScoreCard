@@ -5,14 +5,13 @@ from pathlib import Path
 import pandas as pd
 import joblib
 
-from ML_Project Credit_ScoreCard.config.config 
-import ML_Project_Credit_ScoreCardConfig, logger
-from ML_Project_Credit_ScoreCard import data, train, plotter, report
+from credit_scorecard.config.config import logger
+from credit_scorecard import data, train, plotter, report
 
 app = typer.Typer()
 warnings.filterwarnings("ignore")
 
-DATA_PATH = "ML_Project Credit_ScoreCard/simple_data.csv"
+DATA_PATH = "data/raw/loan_data_2007_2014.csv"
 # MODEL_PATH removed as it is not used directly
 
 

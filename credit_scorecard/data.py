@@ -1,5 +1,5 @@
 import pandas as pd
-from  ML_Project Credit_ScoreCard.config.config import logger
+from  credit_scorecard.config.config import logger
 
 def preprocess_data(data_path: str, clean_path: str = None) -> str:
     """Load CSV, drop NA, save cleaned CSV, return path."""

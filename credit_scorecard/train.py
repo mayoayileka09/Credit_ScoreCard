@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 import joblib
-from ML_Project Credit_ScoreCard.config.config import logger
+from credit_scorecard.config.config import logger
 
 def train_model(data_path: str, model_path: str) -> float:
     """Train linear regression and save model. Returns R2 score."""
