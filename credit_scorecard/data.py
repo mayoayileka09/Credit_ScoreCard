@@ -5,7 +5,7 @@ def preprocess_data(data_path: str, clean_path: str = None) -> str:
     """Load CSV, drop NA, save cleaned CSV, return path."""
     df = pd.read_csv(data_path)
     logger.info(f"Loaded data shape: {df.shape}")
-    df_clean = df.dropna()
+    df_clean = df.dropna(subset=["loan_status", "issue_d"])  # Made the drop less strict, dropping N/A for all rows emptied the dataset
     logger.info(f"After dropna: {df_clean.shape}")
     if clean_path is None:
         clean_path = data_path.replace(".csv", "_clean.csv")

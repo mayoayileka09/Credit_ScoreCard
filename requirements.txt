@@ -5,7 +5,7 @@ pandas
 openpyxl
 numpy
 matplotlib
-scikit-learn-intelex
+scikit-learn-intelex; platform_machine == "x86_64"
 shap
 numpyencoder
 argparse

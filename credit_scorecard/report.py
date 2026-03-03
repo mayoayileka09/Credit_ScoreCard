@@ -1,7 +1,7 @@
 import pandas as pd
 from io import BytesIO
 import matplotlib.pyplot as plt
-from aiweb_common.report_builder import ReportBuilder
+from aiweb_common.report_builder.report_builder import ReportBuilder
 
 def build_report(pred_path: str, fig_path: str = "eval_plot.png") -> BytesIO:
     """

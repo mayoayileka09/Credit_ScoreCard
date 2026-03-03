@@ -214,3 +214,6 @@ __marimo__/
 .streamlit/secrets.tomldata/raw/*.csv
 data/raw/*.csv
 .DS_Store
+
+#data
+data2/
