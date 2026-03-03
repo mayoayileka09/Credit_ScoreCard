@@ -217,3 +217,9 @@ data/raw/*.csv
 
 #data
 data2/
+
+# Ignore data files
+data2/
+*.csv
+*.parquet
+*.pkl
