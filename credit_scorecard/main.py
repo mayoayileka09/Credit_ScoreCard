@@ -20,7 +20,7 @@ def run_pipeline(
     data_path: str = DATA_PATH,
     report_path: str = "report.zip",
     fig_path: str = "eval_plot.png",
-    test_run: bool = False,
+    test_run: bool = True,
 ):
     # Step 1: Preprocess
     clean_path = data.preprocess_data(data_path)

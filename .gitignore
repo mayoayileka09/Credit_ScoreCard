@@ -217,9 +217,11 @@ data/raw/*.csv
 
 #data
 data2/
+mlruns/
 
 # Ignore data files
 data2/
 *.csv
 *.parquet
 *.pkl
+

@@ -1,20 +1,7 @@
 {
-    "docwriter.style": "Google",
-    "[makefile]": {
-        "editor.insertSpaces": false,
-        "editor.detectIndentation": false
-    },
-    "python.testing.pytestArgs": [
-        "tests"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": [
-        {
-            "path": ".",
-            "envManager": "ms-python.python:venv",
-            "packageManager": "ms-python.python:pip"
-        }
-    ]
+  "python.defaultInterpreterPath": "/home/vscode/venvs/credit_scorecard/bin/python",
+  "python.languageServer": "Pylance",
+  "python.jediEnabled": false,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.extraPaths": ["."]
 }

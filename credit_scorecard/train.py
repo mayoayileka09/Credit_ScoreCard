@@ -6,6 +6,7 @@ from credit_scorecard.config.config import logger
 def train_model(data_path: str, model_path: str) -> float:
     """Train linear regression and save model. Returns R2 score."""
     df = pd.read_csv(data_path)
+
     X = df[["x"]]
     y = df["y"]
     model = LinearRegression()

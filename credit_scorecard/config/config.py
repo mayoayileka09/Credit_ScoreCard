@@ -24,7 +24,7 @@ class credit_scorecard():
     EXAMPLE_OUTPUT = Path(INTERMEDIATE_DIR, "Example_Output.csv")
 
     # MLFlow model registry
-    mlflow.set_tracking_uri("https://")
+    mlflow.set_tracking_uri("http://localhost:5000")
 
     # Logger
     logging_config = {

@@ -25,7 +25,7 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "python.defaultInterpreterPath": "/workspaces/ml_project_credit_scorecard/.venv/bin/python",
+        "python.defaultInterpreterPath": "/home/vscode/venvs/credit_scorecard/bin/python",
         "python.linting.enabled": true,
         "python.linting.pylintEnabled": true,
         "python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
@@ -47,7 +47,10 @@
         "ms-python.vscode-pylance",
         "teledemic.branch-warnings",
         "kilocode.kilo-code",
-        "jebbs.plantuml"
+        "jebbs.plantuml",
+        "ms-toolsai.datawrangler",
+        "wbd2023.vscode-pylance-workspace-folder-scope",
+        "ms-python.python"
       ]
     }
   },
