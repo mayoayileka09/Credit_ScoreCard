@@ -1,5 +1,6 @@
 {
-  "python.defaultInterpreterPath": "/home/vscode/venvs/credit_scorecard/bin/python",
+  "python.defaultInterpreterPath": "/workspaces/ml_project_credit_scorecard/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
   "python.languageServer": "Pylance",
   "python.jediEnabled": false,
   "python.analysis.autoSearchPaths": true,
