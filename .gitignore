@@ -215,13 +215,17 @@ __marimo__/
 data/raw/*.csv
 .DS_Store
 
-#data
+#data and report
 data2/
 mlruns/
+report.zip
 
 # Ignore data files
 data2/
 *.csv
 *.parquet
 *.pkl
+*.bak
+
+
 
